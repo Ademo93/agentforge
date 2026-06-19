@@ -1,0 +1,57 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+.venv/
+venv/
+env/
+
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+.ipynb_checkpoints/
+
+# Caches
+.cache/
+hf_cache/
+qdrant_storage/
+.agentforge/
+
+# Eval results
+benchmarks/results/*.json
+benchmarks/results/*.csv
+!benchmarks/results/.gitkeep
+
+# MkDocs
+site/
+
+*.log
+logs/
+
+.env
+.env.local
+
+*.safetensors
+*.bin
+*.gguf
+*.pt
+
+# DBs
+*.db
+*.sqlite
+*.sqlite3

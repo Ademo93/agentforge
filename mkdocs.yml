@@ -1,0 +1,46 @@
+site_name: AgentForge
+site_description: ReAct agents on open-weight LLMs with tools and an eval harness.
+site_url: https://Ademo93.github.io/agentforge/
+repo_url: https://github.com/Ademo93/agentforge
+repo_name: Ademo93/agentforge
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: pink
+      toggle: { icon: material/brightness-7, name: Switch to dark mode }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: pink
+      toggle: { icon: material/brightness-4, name: Switch to light mode }
+
+nav:
+  - Home: index.md
+  - ReAct loop: react.md
+  - Tools: tools.md
+  - Memory: memory.md
+  - Evaluation: evaluation.md
+  - Contributing: CONTRIBUTING.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc: { permalink: true }
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight: { anchor_linenums: true }
+  - pymdownx.tabbed: { alternate_style: true }
