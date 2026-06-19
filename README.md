@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/agentforge-ml/"><img alt="PyPI" src="https://img.shields.io/badge/pypi-agentforge--ml-blue"></a>
+  <a href="https://pypi.org/project/agentforge-ml/"><img alt="PyPI" src="https://img.shields.io/pypi/v/agentforge-ml"></a>
   <a href="#"><img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue"></a>
   <a href="#"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"></a>
   <a href="https://Ademo93.github.io/agentforge/"><img alt="Docs" src="https://img.shields.io/badge/docs-mkdocs--material-blue"></a>
